@@ -3,8 +3,9 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite"
+        "build": "echo 'No build step needed for Laravel deployment'",
+        "dev": "vite",
+        "vercel-build": "echo 'Laravel build completed'"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
